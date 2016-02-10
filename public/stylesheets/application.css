@@ -1,0 +1,106 @@
+body {
+    background-image: url(http://i.imgur.com/3xsbmn1.jpg)
+}
+
+h2   {
+    font-family: Helvetica;
+    color: white;
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+input {
+    margin-left: 100px;
+    font-color: gray;
+}
+#email {
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+}
+#name {
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+}
+#phone{
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+}
+#keyword{
+    color: gray;
+    font-size: 20px;
+    margin-left: 100px;
+}
+#searchContacts{
+    padding: 8px 16px;
+    background-color: gray;
+    color: white;
+    font-family: Helvetica;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+#container { 
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 400px;
+    height: 550px; 
+    margin-top: 60px;
+    margin-left: 110px;
+    background: rgba(128, 128, 0, 0.3);
+    border-radius: 40px;
+    float: left
+}
+
+#getContacts { 
+    padding: 8px 16px; 
+    background-color: gray; 
+    color: white;
+    font-family: Helvetica;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+#makeContacts {
+    padding: 8px 16px;
+    background-color: gray;
+    color: white;
+    margin-top: 20px;
+    font-family: Helvetica;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+#contacts { 
+    float: right;
+    width: 90%; 
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-bottom: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 600px;
+    height: 450px; 
+    background: rgba(128, 128, 0, 0.3);;
+    border-radius: 40px;  
+}
+
+#contacts th { 
+    color: white;
+    font-size: 15;
+    font-family: helvetica;  
+    font-weight: bold;
+    border-radius: 20px
+}
+
+#contacts td { 
+    text-align: center;
+    color: white;
+}
+
+#contacts td, #contacts th { 
+    padding: 5px; 
+}
+
+.hide { display: none; }
