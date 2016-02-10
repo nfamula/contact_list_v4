@@ -1,10 +1,7 @@
-Sinatra
-=============
 
-Brought to you by Lighthouse Labs
-
-## Getting Started
-
-1. `bundle install`
-2. `shotgun -p 3000 -o 0.0.0.0`
-3. Visit `http://localhost:3000/` in your browser
+   Lighthouse Labs course work.
+   
+    Single page web app
+    You will using Sinatra (skeleton code here ) for the server
+    Built with a JSON API
+    It uses jQuery and JS to talk to the server via AJAX
