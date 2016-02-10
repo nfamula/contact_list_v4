@@ -51,7 +51,7 @@ label {
     height: 550px; 
     margin-top: 60px;
     margin-left: 110px;
-    background: rgba(128, 128, 0, 0.3);
+    background: rgba(128, 128, 0, 0.4);
     border-radius: 40px;
     float: left
 }
@@ -75,6 +75,16 @@ label {
     border-radius: 10px;
 }
 
+#deleteContacts {
+    padding: 8px 16px;
+    background-color: gray;
+    color: white;
+    margin-top: 20px;
+    font-family: Helvetica;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
 #contacts { 
     float: right;
     width: 90%; 
@@ -85,7 +95,7 @@ label {
     padding-bottom: 20px;
     width: 600px;
     height: 450px; 
-    background: rgba(128, 128, 0, 0.3);;
+    background: rgba(128, 128, 0, 0.4);;
     border-radius: 40px;  
 }
 
