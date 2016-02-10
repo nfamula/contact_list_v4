@@ -31,13 +31,8 @@ var Contacts = {
 
 
   searchContacts: function() {
-    var findContact = {
-      name: $("input[name=name]").val(),
-      email: $("input[name=email]").val(),
-      phone: $("input[name=phone]").val()
-    };
-
-    $.getJSON('/contacts/:id', findContact, Contacts.processContacts);
+    console.log('/contacts/search/' + $("input[name=keyword]").val()),
+    $.getJSON('/contacts/search/' + $("input[name=keyword]").val(), Contacts.processContacts);
   },
 
 

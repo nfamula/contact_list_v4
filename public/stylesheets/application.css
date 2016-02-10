@@ -11,7 +11,10 @@ h2   {
 }
 input {
     margin-left: 100px;
-    font-color: gray;
+    color: gray;
+}
+label {
+    margin-left: 100px;
 }
 #email {
     color: white;
@@ -28,10 +31,10 @@ input {
     font-size: 20px;
     margin-left: 100px;
 }
-#keyword{
-    color: gray;
+#search{
+    color: white;
     font-size: 20px;
-    margin-left: 100px;
+    margin-right: 100px;
 }
 #searchContacts{
     padding: 8px 16px;
