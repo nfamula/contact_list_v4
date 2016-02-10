@@ -23,7 +23,7 @@ get '/contacts/search/:s' do
   Contact.where(["name LIKE ?", "%#{params[:s]}%"]).to_json
 end 
 
-get '/contacts/:id/delete' do
+post '/contacts/:id/delete' do
   contact = Contact.find_by(name: params[:name], email: params[:email], phone: params[:phone])
   contact.destroy
 end

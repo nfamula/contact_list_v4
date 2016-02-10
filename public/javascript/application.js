@@ -34,6 +34,17 @@ var Contacts = {
     $.getJSON('/contacts/search/' + $("input[name=keyword]").val(), Contacts.processContacts);
   },
 
+  deleteContacts: function() {
+    var deleteContacts = {
+      name: $("input[name=name]").val(),
+      email: $("input[name=email]").val(),
+      phone: $("input[name=phone]").val()
+    };
+    
+    $.post('/contacts/:id/delete', deleteContacts, Contacts.getContacts);
+    debugger;
+  },
+
 
   addContact: function() {
     //Callback function for the Add Contact button
@@ -59,21 +70,10 @@ var Contacts = {
   }
 };
 
-  /*deleteContacts: function() { syntax error???
-    var deleteContact = {
-      name: $("input[name=name]").val(),
-      email: $("input[name=email]").val(),
-      phone: $("input[name=phone]").val()
-    };
-    
-    $.post('/contacts/:id/delete', deleteContact, Contacts.getContacts);
-  },
-*/
 
-
-$(function() {
+$(function() { //this is another way of writing $(document).ready(function){});
   $("#getContacts").on('click', Contacts.getContacts);
   $("#makeContacts").on('click', Contacts.addContact);
   $("#searchContacts").on('click', Contacts.searchContacts);
-  $("#deleteContacts").on('click', Contacts.deleteContact);
+  $("#deleteContacts").on('click', Contacts.deleteContacts);
 });
