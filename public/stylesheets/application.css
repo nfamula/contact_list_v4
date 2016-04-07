@@ -53,7 +53,7 @@ label {
     margin-left: 110px;
     background: rgba(128, 128, 0, 0.4);
     border-radius: 40px;
-    float: left
+    float: left;
 }
 
 #getContacts { 
@@ -95,7 +95,7 @@ label {
     padding-bottom: 20px;
     width: 600px;
     height: 450px; 
-    background: rgba(128, 128, 0, 0.4);;
+    background: rgba(128, 128, 0, 0.4);
     border-radius: 40px;  
 }
 
@@ -104,7 +104,7 @@ label {
     font-size: 15;
     font-family: helvetica;  
     font-weight: bold;
-    border-radius: 20px
+    border-radius: 20px;
 }
 
 #contacts td { 
